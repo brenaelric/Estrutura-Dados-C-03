@@ -66,7 +66,7 @@ Box *exclue_primeiro(Box *inicio)
 
 Box *exclue_valor(Box *inicio, char letra)
 {
-'	if (inicio->conteudo == letra)
+	if (inicio->conteudo == letra)
 		return exclue_primeiro(inicio);
 	temp1 = inicio;
 	temp2 = temp1->proximo;
